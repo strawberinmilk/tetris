@@ -1,0 +1,31 @@
+body{
+  height: 100%;
+  width:99%;
+}
+.block{
+  float: left;
+  height: 20px;
+  width:20px;
+  margin:1px;
+  background-color: white;
+}
+.clear{
+  float: none;
+  width: 22px;
+  height: 22px;
+}
+#gamearea{
+  
+  float: left;
+  background-color: black;
+}
+
+#gamemenu{
+  width:20%;
+  float: left;
+  background-color: cyan;
+}
+
+.button{
+  background-color: magenta;
+}

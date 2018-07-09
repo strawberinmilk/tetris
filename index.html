@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tetris</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div id="gamemenu">
+    <h3 id="gamemenu_status">plese set stage</h3>
+    <p id="gamemenu_point">gamemenu_point</p>
+    <input id="gamemenu_downmap" type="checkbox">down guide</input>
+    <div id="gamemenu_pausebutton" class="button">start</div>
+
+
+    <div id="gamemenu_makenewmap_area">
+      <p>mapSize</p>
+      x:<input id="gamemenu_makenewmap_X" type="number"></input><br>
+      y:<input id="gamemenu_makenewmap_Y" type="number"></input><br>
+      <p>speed</p>
+      start(defalt:1000)<br>
+      <input type="number" id="gamemenu_speed_slow"></input><br>
+      mainasu(defalt:50)<br>
+      <input type="number" id="gamemenu_speed_mainasu"></input><br>
+      fast(defalt:300)<br>
+      <input type="number" id="gamemenu_speed_fast"></input><br>
+    </div>
+    <div id="gamemenu_makenewmap_button" class="button">make stage</div>
+  </div>
+
+  <div id="gamearea">
+  </div>
+
+  <script src="./jq.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
